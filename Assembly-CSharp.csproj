@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{F790DB81-A386-2A72-F5F8-B0BEAE4AA4C6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -57,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Source\MovePlayer\Move.cs" />
+    <Compile Include="Assets\Source\MovePlayer\MoveProvider\NewEditorScript1.cs" />
     <Compile Include="Assets\Source\MovePlayer\MoveProvider\Walk.cs" />
     <Compile Include="Assets\Source\MovePlayer\MoveProvider\SetValue.cs" />
     <Compile Include="Assets\Source\MovePlayer\MouseInput.cs" />
